@@ -6,9 +6,8 @@
   "repository": "https://github.com/MCorange99/generate-token",
   "readme": "readme.md",
   "scripts": {
-    "test": "node test.js",
-    "publish": "npm publish --access=public"
+    "test": "node test.js"
   },
   "author": "mcorange9",
-  "license": "ISC"
+  "license": "GPL-3.0"
 }
