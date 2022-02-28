@@ -5,7 +5,7 @@ function getRandInt(max){
 }
 
 function generateToken(length=5, chars=defchars){
-		let uchars = chars.split(')
+		let uchars = chars.split('')
 		let result = '';
 		for(i=0;i<length;i++){
 			if(getRandInt(2) === 0) {
