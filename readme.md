@@ -15,10 +15,10 @@ $ npm install @mcorange9/generate-token
 ## Usage
 
 ```js
-const generator = require("@mcorange9/generate-token");
+const generateToken = require("./index")
 
-const token = generator.generateToken(10);
+let gen = new generateToken(/** Custom chars */);
 
-console.log(token);
+console.log(gen.generateToken(10))
 
 ```

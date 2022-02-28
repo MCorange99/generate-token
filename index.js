@@ -1,12 +1,20 @@
-const defchars = 'abcdefghijklmnopqrstuvwxyz-_.'
+const DefChars = 'abcdefghijklmnopqrstuvwxyz-_.'
 
 function getRandInt(max){
     return Math.floor(Math.random() * max);
 }
 
-function generateToken(length=5, chars=defchars){
-		let uchars = chars.split('');
+module.exports = class generateToken {
+
+	// a bit unconventional but it works
+	constructor(chars=DefChars){
+		this.chars = chars
+	}
+
+	generateToken(length=5, chars=this.chars){
+		let uchars = this.chars.split('');
 		let result = '';
+		let i
 		for(i=0;i<length;i++){
 			if(getRandInt(2) === 0) {
 				result += uchars[getRandInt(uchars.length)]
@@ -15,7 +23,8 @@ function generateToken(length=5, chars=defchars){
 			}
 		}
 		return result
+	}
 }
-module.exports = {
-	generateToken
-}
+
+
+
