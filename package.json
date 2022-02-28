@@ -1,11 +1,13 @@
 {
-  "name": "generate-token",
+  "name": "@mcorange9/generate-token",
   "version": "1.0.0",
   "description": "Generates a random token/string",
   "main": "index.js",
+  "repository": "https://github.com/MCorange99/generate-token",
+  "readme": "readme.md",
   "scripts": {
     "test": "node test.js"
   },
-  "author": "MCorange",
+  "author": "mcorange9",
   "license": "ISC"
 }
