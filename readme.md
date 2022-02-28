@@ -15,9 +15,9 @@ $ npm install @mcorange9/generate-token
 ## Usage
 
 ```js
-const generateToken = require("./index")
+const generateToken = require("@mcorange9/generate-token")
 
-let gen = new generateToken(/** Custom chars */);
+const gen = new generateToken(/** Custom chars */);
 
 console.log(gen.generateToken(10))
 
