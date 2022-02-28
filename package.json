@@ -1,6 +1,6 @@
 {
   "name": "@mcorange9/generate-token",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Generates a random token/string",
   "main": "index.js",
   "repository": "https://github.com/MCorange99/generate-token",
