@@ -5,7 +5,6 @@ function getRandInt(max){
 }
 
 module.exports = class generateToken {
-
 	// a bit unconventional but it works
 	constructor(chars=DefChars){
 		this.chars = chars
@@ -25,6 +24,3 @@ module.exports = class generateToken {
 		return result
 	}
 }
-
-
-
